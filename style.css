@@ -1,0 +1,234 @@
+body {
+  margin: 0;
+  font-family: 'Orbitron', sans-serif;
+  background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+  color: #ffffff;
+  padding: 50px 20px;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+  color: #00e5ff;
+  text-shadow: 0 0 10px #00e5ff;
+}
+
+p {
+  color: #bbbbbb;
+  margin-bottom: 40px;
+  font-size: 18px;
+}
+
+.games {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+}
+
+.game-card {
+  background: #1c1c1c;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 0 15px rgba(0,255,255,0.2);
+  transition: all 0.3s ease-in-out;
+  border: 1px solid #333;
+  position: relative;
+}
+
+.game-card:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 0 20px rgba(0,255,255,0.5);
+}
+
+.game-title {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.game-desc {
+  font-size: 14px;
+  color: #aaa;
+  margin-bottom: 20px;
+}
+
+.play-btn {
+  padding: 10px 24px;
+  font-size: 14px;
+  font-weight: bold;
+  background: linear-gradient(135deg, #00e5ff, #0077ff);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+  box-shadow: 0 0 10px #00e5ff;
+}
+
+.play-btn:hover {
+  background: linear-gradient(135deg, #0077ff, #00e5ff);
+  box-shadow: 0 0 15px #00e5ff;
+}
+body {
+  margin: 0;
+  font-family: 'Orbitron', sans-serif;
+  background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+  color: #ffffff;
+  padding: 50px 20px;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+  color: #00e5ff;
+  text-shadow: 0 0 10px #00e5ff;
+}
+
+p {
+  color: #bbbbbb;
+  margin-bottom: 40px;
+  font-size: 18px;
+}
+
+.games {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+}
+
+.game-card {
+  background: #1c1c1c;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 0 15px rgba(0,255,255,0.2);
+  transition: all 0.3s ease-in-out;
+  border: 1px solid #333;
+  position: relative;
+}
+
+.game-card:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 0 20px rgba(0,255,255,0.5);
+}
+
+.game-title {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.game-desc {
+  font-size: 14px;
+  color: #aaa;
+  margin-bottom: 20px;
+}
+
+.play-btn {
+  padding: 10px 24px;
+  font-size: 14px;
+  font-weight: bold;
+  background: linear-gradient(135deg, #00e5ff, #0077ff);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+  box-shadow: 0 0 10px #00e5ff;
+}
+
+.play-btn:hover {
+  background: linear-gradient(135deg, #0077ff, #00e5ff);
+  box-shadow: 0 0 15px #00e5ff;
+}
+body {
+  margin: 0;
+  font-family: 'Orbitron', sans-serif;
+  background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+  color: #ffffff;
+  padding: 50px 20px;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+  color: #00e5ff;
+  text-shadow: 0 0 5px #00e5ff;
+}
+
+p {
+  color: #bbbbbb;
+  margin-bottom: 40px;
+  font-size: 18px;
+}
+
+.games {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+}
+
+.game-card {
+  background: #1c1c1c;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 0 15px rgba(0,255,255,0.2);
+  transition: all 0.3s ease-in-out;
+  border: 1px solid #333;
+  position: relative;
+}
+
+.game-card:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 0 20px rgba(0,255,255,0.5);
+}
+
+.game-title {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.game-desc {
+  font-size: 14px;
+  color: #aaa;
+  margin-bottom: 20px;
+}
+
+.play-btn {
+  padding: 10px 24px;
+  font-size: 14px;
+  font-weight: bold;
+  background: linear-gradient(135deg, #00e5ff, #0077ff);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+  box-shadow: 0 0 5px #00e5ff;
+}
+
+.play-btn:hover {
+  background: linear-gradient(135deg, #0077ff, #00e5ff);
+  box-shadow: 0 0 10px #00e5ff;
+}
