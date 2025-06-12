@@ -63,3 +63,23 @@ p {
 .c4{
     margin-left: 88px;
 }
+.help1:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 0 20px rgba(0,255,255,0.5);
+}
+.help1{
+  background: #1c1c1c;
+  padding: 15px;
+  border-radius: 16px;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid #333;
+  position: relative;
+  display: inline-block;
+  margin-top: 80px;
+}
+.game-title1 {
+  font-size: 20px;
+  margin-bottom: 8px;
+  color: #fff;
+  text-decoration: none;
+}
